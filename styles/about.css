@@ -86,7 +86,6 @@ nav a:hover {
 .small-title {
     color: #e87591;
     font-weight: bold;
-    letter-spacing: 1.5px;
 }
 
 footer {
@@ -101,7 +100,7 @@ footer h3 {
 }
 
 footer p {
-    line-height: 1.6;
+    line-height: 1.8;
 }
 
 .about {

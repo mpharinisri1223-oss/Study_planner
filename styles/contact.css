@@ -120,7 +120,6 @@ nav a:hover {
 }
 
 .contact-form textarea {
-    display: block;
     width: 100%;
     box-sizing: border-box;
     height: 120px;
@@ -129,17 +128,7 @@ nav a:hover {
     border-radius: 6px;
     font-size: 14px;
     font-family: Arial, sans-serif;
-    resize: vertical;
-    outline: none;
 }
-
-.contact-form input:focus,
-.contact-form textarea:focus {
-    border: 2px solid #A78BFA;
-}
-
-
-/* SEND BUTTON */
 
 .contact-form button {
     background-color: #7956B8;
