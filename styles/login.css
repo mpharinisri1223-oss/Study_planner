@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fffaf5;
+    color: #37304a;
+}
+
+header {
+    background-color: white;
+    padding: 12px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo {
+    width: 72px;
+    height: 72px;
+    object-fit: contain;
+}
+
+.brand h2 {
+    color: #7956b8;
+    font-size: 26px;
+    margin: 0;
+}
+
+.brand h2 span {
+    color: #e87591;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+nav a {
+    color: #454052;
+    text-decoration: none;
+    margin: 3px;
+}
+
+nav a:hover {
+    color: #e87591;
+    text-decoration:underline
+}
+
+.login-link {
+    background-color: #7956b8;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+}
+
+.login-link:hover {
+    background-color: #e87591;
+    color: white;
+}
+
+.button {
+    display: inline-block;
+    background-color: #7956b8;
+    color: white;
+    text-decoration: none;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 7px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #e87591;
+}
+
+.small-title {
+    color: #e87591;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #302447;
+    color: white;
+    padding: 22px;
+}
+
+footer h3 {
+    color: #f5b942;
+}
+
+footer p {
+    line-height: 1.6;
+}
+
+
+.login-section {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+    background-color: #f0eafe;
+}
+
+.login-box {
+    background-color: white;
+    width: 350px;
+    max-width: 100%;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px #e5dff0;
+}
+
+.login-box h1 {
+    color: #7956b8;
+    text-align: center;
+}
+
+.login-box p {
+    text-align: center;
+}
+
+.login-box label {
+    display: block;
+    margin-top: 18px;
+}
+
+.login-box input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-top: 7px;
+    border: 1px solid #d8cfea;
+    border-radius: 5px;
+}
+
+.login-box .button {
+    width: 100%;
+}
+
+.signup a {
+    color: #e87591;
+}
