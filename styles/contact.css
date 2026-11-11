@@ -66,11 +66,6 @@ nav a:hover {
     padding: 60px 8%;
 }
 
-
-.contact-info {
-    flex: 1;
-}
-
 .contact-info h1 {
     color: #7956B8;
     font-size: 38px;
@@ -160,8 +155,6 @@ nav a:hover {
 .contact-form button:hover {
     background-color: #E87591;
 }
-
-
 
 footer {
     background-color: #302447;
